@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Εταιρικές Υπηρεσίες Ψηφιακής Υποδομής & Εκδηλώσεων</title>
+  <meta name="description" content="Ολοκληρωμένη υποστήριξη εταιρικής επικοινωνίας, marketing και εκδηλώσεων από έναν συνεργάτη.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Zamanis Corporate Services</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Μενού</button>
+      <nav id="primary-nav" class="site-nav" aria-label="Κύρια πλοήγηση">
+        <a class="nav-link" href="index.html">Αρχική</a>
+        <a class="nav-link" href="services.html">Υπηρεσίες</a>
+        <a class="nav-link" href="about.html">Σχετικά</a>
+        <a class="nav-link active" href="contact.html">Επικοινωνία</a>
+        <a class="btn btn-primary" href="contact.html">Κλείστε συνάντηση</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container two-col">
+        <div>
+          <p class="kicker">Επικοινωνία</p>
+          <h1>Προγραμματίστε συνάντηση με την ομάδα μας</h1>
+          <p>Συμπληρώστε τη φόρμα και θα οργανώσουμε σύντομη συζήτηση για το έργο σας.</p>
+        </div>
+        <form class="contact-form card" id="contactForm">
+          <div>
+            <label for="company">Εταιρεία</label>
+            <input id="company" name="company" required>
+          </div>
+          <div>
+            <label for="role">Ρόλος</label>
+            <input id="role" name="role" required>
+          </div>
+          <div>
+            <label for="projectType">Τύπος έργου</label>
+            <input id="projectType" name="projectType" required>
+          </div>
+          <div>
+            <label for="timeline">Χρονοδιάγραμμα</label>
+            <input id="timeline" name="timeline" required>
+          </div>
+          <div>
+            <label for="message">Μήνυμα</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Αποστολή</button>
+          <p id="formSuccess" class="form-success">Θα επικοινωνήσουμε εντός μίας εργάσιμης ημέρας.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p><strong>Επικοινωνία:</strong> +30 210 0000000 | info@zamanis.gr | Αθήνα</p>
+        <p>© 2026 Zamanis Corporate Services</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer menu">
+        <a href="index.html">Αρχική</a>
+        <a href="services.html">Υπηρεσίες</a>
+        <a href="about.html">Σχετικά</a>
+        <a href="contact.html">Επικοινωνία</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
