@@ -40,6 +40,22 @@ img {
   object-fit: cover;
 }
 
+
+.photo-link {
+  display: block;
+}
+
+.photo-link:focus-visible,
+.photo-card:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.photo-card {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
 a {
   color: inherit;
   text-decoration: none;
