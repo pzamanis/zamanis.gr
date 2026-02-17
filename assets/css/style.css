@@ -265,6 +265,19 @@ ol {
   flex-wrap: wrap;
 }
 
+.footer-links a {
+  color: var(--color-secondary);
+}
+
+.footer-links a.active,
+.footer-links a:hover {
+  color: var(--color-primary);
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 48rem) {
   .nav-toggle {
     display: none;
